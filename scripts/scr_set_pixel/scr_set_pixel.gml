@@ -12,7 +12,8 @@ var old_tile = tilemap_get(global.pixels_tilemap, tile_x, tile_y);
 var old_tile_index = tile_get_index(old_tile);
 
 if (old_tile_index != tile_index) {
-	scr_display_message("Drawing tile.");
+	scr_display_message("Drawing tile at " + string(tile_x) + ", " + string(tile_y)
+		+ ", index " + string(tile_index));
 
 	var tiledata = tile_index | tile_rotate | tile_flip;
 	tilemap_set(global.pixels_tilemap, tiledata, tile_x, tile_y);
@@ -20,7 +21,6 @@ if (old_tile_index != tile_index) {
 	return true;
 }
 else {
-	scr_display_message("No change.");
 	return false;
 }
 

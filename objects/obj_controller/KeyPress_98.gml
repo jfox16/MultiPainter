@@ -19,7 +19,7 @@ if (startup) {
 	else {
 		scr_display_message("Connection successful");
 		var new_client = instance_create_depth(0, 0, 100, obj_client);
-		new_client.socket = socket;
+		global.server_socket = socket;
 		new_client.client_id = 5;
 		startup = false;
 	}
