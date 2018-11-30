@@ -13,7 +13,7 @@ for (var i=0; i<24; i++) {
 	tilemap_set(global.pixels_tilemap, tiledata, i+1, 1);
 }
 
-instructions = "[Numpad 1: Create Server] [Numpad 2: Join Server] [Esc: Exit Game]";
+instructions = "[Press 1: Create Server] [Press 2: Join Server] [Esc: Exit Game]";
 
 startup = true;
 show_display_log = false;
