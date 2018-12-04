@@ -3,6 +3,7 @@
 
 if (startup) {
 	startup = false;
+	show_display_log = true;
 	scr_display_message("Creating a server...");
 	instance_create_depth(0, 0, 100, obj_server_client);
 }

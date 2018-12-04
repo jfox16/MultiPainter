@@ -39,6 +39,30 @@
             }
         },
         {
+            "Key": "1840c15c-abbe-44a1-84b2-2a5295adb628",
+            "Value": {
+                "id": "ab85fbde-aa98-4d06-a61b-b94fbeb9e88f",
+                "resourcePath": "scripts\\scr_client_draw_large\\scr_client_draw_large.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1e9d6d21-181e-4637-8ff0-c72687fe2379",
+            "Value": {
+                "id": "0cde108e-5ebc-4f32-8141-7bc77d164175",
+                "resourcePath": "scripts\\scr_client_draw_fill\\scr_client_draw_fill.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2ac3c9a8-b5ce-472e-8b32-1a2d9d0806c1",
+            "Value": {
+                "id": "2c0337e0-54d8-4b35-842a-f8e2666b69db",
+                "resourcePath": "objects\\obj_button_brush\\obj_button_brush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d53f943-8a29-4cdf-804f-8131253dd799",
             "Value": {
                 "id": "d93e8fc7-cadd-4256-8fbb-9a263760eb8c",
@@ -58,7 +82,7 @@
             "Key": "2f12987c-447a-402a-b0be-bddbbe856862",
             "Value": {
                 "id": "1d93cb25-09fe-46e7-9280-fdb5837cad80",
-                "resourcePath": "sprites\\spr_selected\\spr_selected.yy",
+                "resourcePath": "sprites\\spr_selector\\spr_selector.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -100,6 +124,14 @@
                 "id": "be7dfc81-7236-4e70-9bbc-270e5ede3a05",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "58e53517-5f79-4e17-b0cc-384f2dd2a43d",
+            "Value": {
+                "id": "c1a498c8-9492-4e58-b44b-a2e517376610",
+                "resourcePath": "sprites\\spr_button\\spr_button.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +183,14 @@
             }
         },
         {
+            "Key": "80cd7984-9d77-40d2-a42d-e2d2345a484e",
+            "Value": {
+                "id": "3520183c-ee64-4534-a8f8-61c6e617b3af",
+                "resourcePath": "sprites\\spr_button_brush\\spr_button_brush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82d75f71-8a48-4e74-9fe6-1b0b8af08042",
             "Value": {
                 "id": "3952d771-cb65-459e-ba2a-5f993236a97f",
@@ -188,6 +228,14 @@
                 "id": "091ce7f9-a7a2-4206-a247-f407afe62536",
                 "resourcePath": "sprites\\tilespr_colors16\\tilespr_colors16.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "992fdb85-559b-466f-be28-eb4d6a582be8",
+            "Value": {
+                "id": "161254e3-8f55-47ca-89f2-cb1b1dd374d6",
+                "resourcePath": "scripts\\scr_client_draw_pixel\\scr_client_draw_pixel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -231,11 +279,19 @@
             }
         },
         {
-            "Key": "b3034112-1e4d-4fc4-a1c9-f3026d4f93cf",
+            "Key": "b2488a5d-ba63-4980-9d01-da0c4b1ee0fd",
             "Value": {
-                "id": "efec75f1-ea56-44ff-9d44-05eb9ad211eb",
-                "resourcePath": "sprites\\button\\button.yy",
-                "resourceType": "GMSprite"
+                "id": "82f61243-769d-4b72-a64d-75e67522c11a",
+                "resourcePath": "scripts\\scr_client_draw_medium\\scr_client_draw_medium.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b45a3dc6-2506-41fa-ba24-7dfc91c19168",
+            "Value": {
+                "id": "344bd2fa-5395-45f3-817b-6c80ff5b6d5d",
+                "resourcePath": "scripts\\scr_client_draw_small\\scr_client_draw_small.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -382,7 +438,12 @@
         "a6149360-93a9-48b3-90e3-bc207e46e7cc",
         "c6f38ed8-f833-4d05-8a04-e091d8ea69d4",
         "fc06b002-ac62-4801-8223-8a51c8f2dcde",
-        "8307407d-b701-4093-88f4-4cdbf14f9aa8"
+        "8307407d-b701-4093-88f4-4cdbf14f9aa8",
+        "992fdb85-559b-466f-be28-eb4d6a582be8",
+        "b45a3dc6-2506-41fa-ba24-7dfc91c19168",
+        "b2488a5d-ba63-4980-9d01-da0c4b1ee0fd",
+        "1840c15c-abbe-44a1-84b2-2a5295adb628",
+        "1e9d6d21-181e-4637-8ff0-c72687fe2379"
     ],
     "tutorial": ""
 }

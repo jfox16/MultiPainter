@@ -21,5 +21,4 @@ buffer_write(buffer, buffer_u8, tile_x); //tile x
 buffer_write(buffer, buffer_u8, tile_y); //tile y
 buffer_write(buffer, buffer_u8, tile_index); //tile index
 
-scr_display_message("Sending packet... [socket: " + string(socket) + "] [buffer: " + string(buffer) + "]");
 network_send_packet(socket, buffer, buffer_tell(buffer));

@@ -23,7 +23,6 @@ switch(network_type) {
 	case network_type_data:
 		var async_buffer = async_load[? "buffer"];
 		scr_server_handle_packet(async_buffer);
-		scr_display_message("Package received.");
 	break;
 	
 	case network_type_disconnect:
