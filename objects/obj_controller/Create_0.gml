@@ -2,6 +2,8 @@
 
 global.server_socket = noone;
 
+network_set_config(network_config_connect_timeout, 4096);
+
 var size = 1024;
 var buffer_type = buffer_fixed;
 var alignment = 1;

@@ -15,36 +15,6 @@
             "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
         },
         {
-            "id": "7b8e1021-43b5-46eb-ae98-773aa3f322e5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 97,
-            "eventtype": 9,
-            "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
-        },
-        {
-            "id": "8c3bb0f6-d093-470d-892f-bcdef3460fac",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 98,
-            "eventtype": 9,
-            "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
-        },
-        {
-            "id": "3e1a6c46-9b68-4458-9dd4-b2c2d7b886e1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 27,
-            "eventtype": 9,
-            "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
-        },
-        {
             "id": "cddc8f80-e01e-47c5-af8d-c2bbea20c051",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -65,23 +35,13 @@
             "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
         },
         {
-            "id": "be067da7-8dea-4ae2-9fa2-16af3f3d9eff",
+            "id": "40dee76f-442a-4088-82ac-61b73861e39f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 49,
-            "eventtype": 9,
-            "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
-        },
-        {
-            "id": "cd661276-a8ca-4a7c-ab0a-491d81747003",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 50,
-            "eventtype": 9,
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "d2d23ca8-9948-40fe-940f-bcd61373a456"
         }
     ],
