@@ -21,12 +21,12 @@ if (tile_index != origin_tile_index
 	// draw middle pixel
 	scr_client_draw_pixel(socket, buffer, tile_x, tile_y, tile_index);
 	
-	// recurse from west pixel
+	// recurse from west adjacent pixel
 	scr_client_draw_fill(socket, buffer, tile_x-1, tile_y, tile_index, origin_tile_index);
-	// recurse from east pixel
-	scr_client_draw_fill(socket, buffer, tile_x+1, tile_y, tile_index, origin_tile_index);
-	// recurse from north pixel
+	// recurse from north adjacent pixel
 	scr_client_draw_fill(socket, buffer, tile_x, tile_y-1, tile_index, origin_tile_index);
-	// recurse from south pixel
+	// recurse from east adjacent pixel
+	scr_client_draw_fill(socket, buffer, tile_x+1, tile_y, tile_index, origin_tile_index);
+	// recurse from south adjacent pixel
 	scr_client_draw_fill(socket, buffer, tile_x, tile_y+1, tile_index, origin_tile_index);
 }
