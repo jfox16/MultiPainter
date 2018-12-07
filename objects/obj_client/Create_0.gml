@@ -10,4 +10,8 @@ instance_create_depth(496, 560, 10, obj_button_brush);
 fill_cooldown = 0;
 fill_delay = 5;
 
+was_clicking = false;
+last_tile_x = 0;
+last_tile_y = 0;
+
 scr_display_message("Client created.");
